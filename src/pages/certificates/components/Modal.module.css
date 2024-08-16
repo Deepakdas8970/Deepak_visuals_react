@@ -1,0 +1,41 @@
+.modalDialog{
+  max-width: unset;
+  margin: 5% 15%;
+}
+.modalDialog .modal-content{
+  box-shadow: 0px 0px 15px 7px #4900ff;
+}
+.modalHide{
+  display:none;
+}
+.modal{
+  display:block;
+}
+@media (max-width:576px){
+  .modalDialog{
+    max-width: unset;
+    margin: 1% 1%;
+  }
+  .modal{
+    position: fixed;
+    top: 28%;
+    left: 0;
+  }
+  .modal-body{
+    height: 40vh;
+    padding: unset;
+  }
+
+}
+@media (min-width:576px) {
+  .modal{
+    display: block;
+    background: #000000a1;
+  }
+  .modal-body{
+    height: 80vh;
+    padding: unset;
+  }
+ 
+  
+}

@@ -1,0 +1,45 @@
+
+.projectGrid{
+  width: auto;
+  height: auto;
+  display: grid;
+  color: white;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  text-align: center;
+  grid-row-gap: 50px;
+  column-gap: 40px;
+  padding: 5% 10% 8% 10%;
+  align-items: center;
+  
+}
+
+@media screen and (max-width:576px) {
+  .projectGrid{
+        
+        grid-template-columns: auto;
+        
+  }
+}
+.projectGrid .col{
+  border: 1px solid rgb(252, 252, 252);
+  height: 100%;
+  position: relative;
+  padding: 5px;
+  box-shadow: 0px 0px 15px rgb(255, 255, 255) ;
+  position: relative;
+}
+.projectGrid .col img{
+
+}
+
+
+.projectGrid .col .btn{
+
+}
+.projectGrid .col .row{
+  border-top: 1px solid rgb(255, 255, 255);
+  margin-top: 5px;
+  box-shadow: 0px 5px 15px -5px rgb(255, 255, 255) inset;
+
+}

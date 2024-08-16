@@ -1,0 +1,449 @@
+
+.progress{
+  margin-bottom: 20px;
+  height: 34px;
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+   
+}
+#myImage{
+   transform: rotate(9deg);
+}
+#myImage:hover{
+   transform: rotate(0deg);
+}
+.progress-bar{
+   background: #3511E8;
+   text-align: left;
+   padding-left: 25px;
+}
+.deepak{
+          color: #3511E8;
+           position: relative;
+           left: 10%
+}
+@media (min-width:576px) and (max-width:768px){
+   #menuIcon{
+      display: none;
+}
+#mainlist {
+      
+      color: white;
+      font-size: 10px;
+      font-weight: bold;       
+
+}
+#mainlist ul i{
+       display: none;;
+}
+#mainlist ul{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top:12px;
+       
+      
+}
+
+.item{
+       padding: 10px;
+       color: white;
+       
+       
+}
+.item a{
+   color: white;
+   
+   
+}
+.item:hover{
+       color:#3511E8;
+       border: 1px solid #3511E8;
+}
+.active{
+   color: rgb(46, 33, 230) !important;
+  }
+  #mainlistShow {
+      
+   color: white;
+   font-size: 14px;
+   font-weight: bold;       
+
+}
+#mainlistShow ul i{
+    display: none;;
+}
+#mainlistShow ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:12px;
+    
+   
+}
+
+}
+@media screen and (min-width: 768px){
+    #menuIcon{
+            display: none;
+    }
+     #mainlist {
+            
+            color: white;
+            font-size: 15px;
+            font-weight: bold;       
+    
+     }
+     #mainlist ul i{
+             display: none;;
+     }
+     #mainlist ul{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-top:12px;
+             
+            
+     }
+     #mainlist ul a{
+      color: white;
+   }
+     .item{
+             padding: 10px;
+             color: white;
+      }
+      .item a{
+         color: white;
+      }
+     .item:hover{
+             color:#3511E8;
+             border: 1px solid #3511E8;
+     }
+     .active{
+      color: rgb(46, 33, 230) !important;
+     }
+     #mainlistShow {
+      
+      color: white;
+      font-size: 14px;
+      font-weight: bold;       
+   
+   }
+   #mainlistShow ul i{
+       display: none;;
+   }
+   #mainlistShow ul{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top:12px;
+       
+      
+   }
+   #aboutMe h1{
+      font-size: 3rem;
+   }
+   #contactUs h1{
+      font-size: 3rem;
+   }
+   #skills h1{
+      font-size: 3rem;
+   }
+     #softSkills h1{
+      font-size: 3rem;
+     }
+    
+}       
+#home img{
+           width: 100%;
+           height: 100%;
+    }
+@media screen and (max-width: 576px){
+    #mainlist {
+            padding-left: 10px;
+            width: 50vw;
+            height: 100vh;
+            background:#1d08bd;
+            font-size: 20px;
+            position: fixed;
+            right: -50vw;
+            z-index: 1000;
+            font-weight: bold;
+            color: white;
+    }
+    #mainlistShow {
+      padding-left: 10px;
+      width: 50vw;
+      height: 100vh;
+      background: #0015FF;
+      font-size: 20px;
+      position: fixed;
+      right: 2vw;
+      z-index: 1000;
+      font-weight: bold;
+      transition: 1s;
+      padding-right: 20px;
+      padding-top: 6vh;
+      text-align: right;
+}
+    #home img{
+      width: 172%;
+      height: 99%;
+}
+      #mainlist ul {
+         margin-top: 0;
+          margin-left: 0;
+    
+    
+      }
+    .item {
+            padding: 4% 0 4% 0;
+            color: white;
+          
+    }
+    .item a{
+      color: white;
+    }
+     .item:hover {
+            
+             color: #091BEA;
+    
+     }
+     #menuIcon{
+      z-index: 1100;
+      color: white;
+     }
+     .menuHide{
+      font-weight: bold;
+     }
+     #aboutMe h1{
+      font-size: 2.5rem;
+   
+   }
+   #contactUs h1{
+      font-size: 2.5rem;
+     
+   }
+   #skills h1{
+      font-size: 2.5rem;
+   }
+     #softSkills h1{
+      font-size: 2.5rem;
+      color: firebrick;
+     }
+     .deepak + p{
+      color: #3511E8;
+       
+}
+}
+
+.form-control{
+ background: black;
+ height: 50px;
+ color: white;
+}
+.form-label{
+font-weight: bold;
+}
+.form-control:hover{
+   background: black;
+   border: 1px solid #3511E8;
+}
+.contactUs{
+   padding: 0px 10% 0 10%;
+}
+
+
+/* For project page*/
+
+#projectGrid{
+   width: auto;
+   height: auto;
+   display: grid;
+   color: white;
+   grid-template-rows: auto auto;
+   grid-template-columns: auto auto;
+   text-align: center;
+   grid-row-gap: 50px;
+   column-gap: 40px;
+   padding: 5% 10% 8% 10%;
+   align-items: center;
+   
+}
+@media screen and (max-width:576px) {
+   #projectGrid{
+         
+         grid-template-columns: auto;
+         
+   }
+}
+#projectGrid .col{
+   border: 1px solid white;
+   height: 100%;
+   position: relative;
+   padding: unset;
+}
+#projectGrid .col .title{
+   position: absolute;
+   color: #3511E8;
+   font-weight: bold;
+   padding-left: 12%;
+   padding-right: 12%;
+   left: 10%;
+   bottom: -15%;
+   transform: translate(-5%,0%);
+   width: 90%;
+   border: 2px solid #3511E8;;
+   box-shadow: 0px 0px 15px #1300FF;
+}
+body{
+   margin: 0;
+   padding: 0;
+}
+.projectCButton{
+   padding: 0 10% 0 10%;
+   margin: 18px 20px 0 20px;
+}
+.projectCButton .col{
+   border: 1px solid #3511E8;
+   text-align: center;
+   margin: 1% 5% 1% 5%;
+   padding: 5px;
+   color: white;
+   font-weight: bold;
+   background: #3511E8;
+   border-radius: 5px 5px;
+}
+@media  screen and (min-width:576px) {
+
+   .projectCButton .col{
+      border: 1px solid #3511E8;
+      text-align: center;
+      margin: 1% 2% 1% 2%;
+      padding: 5px;
+      color: white;
+      font-weight: bold;
+      background: #3511E8;
+      border-radius: 5px 5px;
+   }
+}
+.projectCButton .col:hover{
+   background: none;
+}
+.viewButton{
+   background: #3511E8;
+   color: white;
+   padding: 5px;
+   position: absolute;
+   right:1%;
+   border-radius: 5px 5px;
+}
+.viewButton:hover{
+   background: none;
+   color: #3511E8;
+   border: 2px solid #3511E8;
+}
+
+@media screen and (max-width: 576px){
+   .projectCButton .col{
+   border: 1px solid #3511E8;
+   text-align: center;
+   margin: 1% 1% ;
+   padding: 5px;
+   color: white;
+   font-weight: bold;
+   background: #3511E8;
+   border-radius: 5px 5px;
+   font-size: 11px;
+}
+.projectCButton .col:hover{
+   background: none;
+}
+.projectCButton {
+   padding: 0;
+   margin-top: 24px;
+}
+
+}
+.form-control::placeholder{
+   color:White;
+}
+.topScrollButton{
+   background-color:white ;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 900;
+   position: fixed;
+   right: 3vw;
+   bottom:4vh;
+   box-shadow: 0px 0px 15px #f9f9f9;
+   border: 1px solid #0015FF;
+}
+.topScrollButton a{
+   color: #0015FF;
+}
+.topScrollButton:hover{
+background-color: #0015ff;
+border: 1px solid white;
+color: white;
+box-shadow: 0px 0px 15px rgb(252, 252, 255);
+}
+.topScrollButton a:hover{
+   color: white;
+}
+
+/* CSS */
+.myButton{
+  background:#3511E8;
+  border-radius: 999px;
+  box-shadow: #cfcfd7 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.myButton:hover{
+   box-shadow: #3333e1 0 10px 20px -10px;
+
+}
+.mybtn{
+   display: block;
+    margin: 15px auto;
+}
+.softSkillsIcons{
+   color: rgb(53, 17, 232) !important;
+  border: 2px solid rgb(53, 17, 232);
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgb(4, 12, 247);
+  display: flex;
+  width: 40px;
+  height: 40px;
+  float: inline-start;
+  font-size: 23px;
+  align-items: center;
+  justify-content: center;
+}
+.softSkillsIcons:hover{
+   box-shadow: 0px 0px 10px white;
+
+}
+.carousel {
+   position: relative;
+   padding: 0 13%;
+}
